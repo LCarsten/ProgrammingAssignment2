@@ -1,5 +1,7 @@
-## support functions to speed up frequently used data when 
-## inverting matrixes
+## Two support functions that speed up creation of frequently 
+## used data when inverting matrixes. Already calculated data
+## (solve for matrix inversion) gets cached and saves calculation
+## power when used next time on same data
 
 #' Make a cached matrix that retains the inverse result
 #' of the solv function when used in conjunction with
